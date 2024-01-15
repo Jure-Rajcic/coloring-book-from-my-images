@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coloring book from my images</title>
+    <link rel="icon" type="image/x-icon" href="/img/icon.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- (1) -->
+    <div class="section">
+      <h1>
+        <span class="magic">
+          <span class="magic-star">
+            <svg viewBox="0 0 512 512">
+              <path
+                d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z"
+              />
+            </svg>
+          </span>
+          <span class="magic-star">
+            <svg viewBox="0 0 512 512">
+              <path
+                d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z"
+              />
+            </svg>
+          </span>
+          <span class="magic-star">
+            <svg viewBox="0 0 512 512">
+              <path
+                d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z"
+              />
+            </svg>
+          </span>
+          <span class="magic-text">Upload Your Memories</span>
+        </span>
+      </h1>
+      <p>
+        Upload up to 8 of your cherished photos, and we'll craft a personalized
+        color book just for you. Rest assured, your pictures are entirely your
+        own. We guarantee that they are not stored or retained after your book
+        is created. Experience the magic, completely worry-free! ✨.
+      </p>
+      <div id="upload-box" class="upload-box">
+        <input type="file" id="file-input" multiple hidden />
+        <label for="file-input">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path
+              d="M19,13a1,1,0,0,0-1,1v.38L16.52,12.9a2.79,2.79,0,0,0-3.93,0l-.7.7L9.41,11.12a2.85,2.85,0,0,0-3.93,0L4,12.6V7A1,1,0,0,1,5,6h7a1,1,0,0,0,0-2H5A3,3,0,0,0,2,7V19a3,3,0,0,0,3,3H17a3,3,0,0,0,3-3V14A1,1,0,0,0,19,13ZM5,20a1,1,0,0,1-1-1V15.43l2.9-2.9a.79.79,0,0,1,1.09,0l3.17,3.17,0,0L15.46,20Zm13-1a.89.89,0,0,1-.18.53L13.31,15l.7-.7a.77.77,0,0,1,1.1,0L18,17.21ZM22.71,4.29l-3-3a1,1,0,0,0-.33-.21,1,1,0,0,0-.76,0,1,1,0,0,0-.33.21l-3,3a1,1,0,0,0,1.42,1.42L18,4.41V10a1,1,0,0,0,2,0V4.41l1.29,1.3a1,1,0,0,0,1.42,0A1,1,0,0,0,22.71,4.29Z"
+            />
+          </svg>
+          <span>Click To Upload</span>
+          <p>Required Number Of Photos: 8</p>
+          <p>Max Photo Size: 15 MB</p>
+        </label>
+        <i></i>
+      </div>
+    </div>
+    <hr />
+
+    <!-- (2) -->
+    <div class="section">
+      <h1>
+        <span class="magic">
+          <span class="magic-star">
+            <svg viewBox="0 0 512 512">
+              <path
+                d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z"
+              />
+            </svg>
+          </span>
+          <span class="magic-star">
+            <svg viewBox="0 0 512 512">
+              <path
+                d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z"
+              />
+            </svg>
+          </span>
+          <span class="magic-star">
+            <svg viewBox="0 0 512 512">
+              <path
+                d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z"
+              />
+            </svg>
+          </span>
+          <span class="magic-text">Review & Generate</span>
+        </span>
+      </h1>
+      <p>
+        Take a moment to browse through your selected images in the gallery by
+        hovering or clicking on them. If you decide to make changes to your
+        collection, just reupload the entire set. When your gallery looks just
+        the way you want it, click the 'Generate' button below 🖌️.
+      </p>
+      <div id="card-group" class="card-group">
+        <div class="little-card card"></div>
+        <div class="big-card card"></div>
+        <div class="little-card card"></div>
+        <div class="big-card card"></div>
+        <div class="little-card card"></div>
+        <div class="big-card card"></div>
+        <div class="little-card card"></div>
+        <div class="big-card card"></div>
+      </div>
+
+      <div id="generate-container" class="button-container">
+        <button id="generate-button">
+          <span>Generate</span>
+          <i></i>
+        </button>
+      </div>
+
+      <div class="progress-bar">
+        <div id="progress-div" class="progress"></div>
+      </div>
+    </div>
+    <hr />
+
+    <!-- (3) -->
+    <div class="section">
+      <h1>
+        <span class="magic">
+          <span class="magic-star">
+            <svg viewBox="0 0 512 512">
+              <path
+                d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z"
+              />
+            </svg>
+          </span>
+          <span class="magic-star">
+            <svg viewBox="0 0 512 512">
+              <path
+                d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z"
+              />
+            </svg>
+          </span>
+          <span class="magic-star">
+            <svg viewBox="0 0 512 512">
+              <path
+                d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z"
+              />
+            </svg>
+          </span>
+          <span class="magic-text">Chose Your Favorites</span>
+        </span>
+      </h1>
+      <p>
+        While we work our magic on your images (which may take a few minutes),
+        this section will refresh with charming cartoon versions of your
+        uploaded photos. As you choose your favorites, the image slider will
+        update automatically, letting you see your selections come to life in
+        the coloring book 💖.
+      </p>
+
+      <div id="slider" class="slider">
+        <div class="slider-content">
+          <div id="image-container" class="img-container">
+            <div class="check-box">
+              <svg
+                id="selected-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                class="bi bi-suit-heart-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"
+                />
+              </svg>
+            </div>
+            <!-- <img src="img\generated\x.png" alt="1. photo" />  leve this comented ...-->
+
+          </div>
+          <div id="href-container" class="href-container"></div>
+        </div>
+        <i></i>
+      </div>
+      <div class="row">
+        <div class="button-container">
+          <button id="select-button">
+            <span>Select</span>
+            <i></i>
+          </button>
+        </div>
+
+        <div class="button-container">
+          <button id="deselect-button">
+            <span>Deselect</span>
+            <i></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="section">
+      <h1>
+        <span class="magic">
+          <span class="magic-star">
+            <svg viewBox="0 0 512 512">
+              <path
+                d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z"
+              />
+            </svg>
+          </span>
+          <span class="magic-star">
+            <svg viewBox="0 0 512 512">
+              <path
+                d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z"
+              />
+            </svg>
+          </span>
+          <span class="magic-star">
+            <svg viewBox="0 0 512 512">
+              <path
+                d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z"
+              />
+            </svg>
+          </span>
+          <span class="magic-text">Purchase & Download</span>
+        </span>
+      </h1>
+      <p>
+        Your custom coloring book is a click away! After purchase, your image
+        slider becomes a PDF featuring only your selected images. The download
+        begins immediately, delivering your unique coloring book with each image
+        on its own page 💵.
+      </p>
+      <div class="button-container">
+        <button id="purches-button">
+          <span>Purches</span>
+          <i></i>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
