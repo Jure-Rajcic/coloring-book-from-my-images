@@ -31,9 +31,6 @@ npm run serve
 
 You can view a live demo of the site here:
 [Coloring Book Demo](https://coloring-book-from-my-images.netlify.app/)
-#
-[![Coloring Book Demo.png](https://i.postimg.cc/wv8Jm0WL/Snimka-zaslona-2024-04-23-113124.png)](https://postimg.cc/qtwzfXHv)
-[![Coloring Book Demo.png](https://i.postimg.cc/XJf5cdhh/Snimka-zaslona-2024-04-23-113241.png)](https://postimg.cc/8JCsTJTB)
 
 ## 🛠️ Project Insights
 
